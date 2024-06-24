@@ -1,3 +1,5 @@
 resources/IMDB Dataset.csv
 resources/IMDB Dataset Enriched.csv
+resources/IMDB Dataset To Evaluate.csv
 .venv/
+.idea/
