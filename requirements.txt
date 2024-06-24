@@ -1,0 +1,5 @@
+jupyter
+pandas
+rouge-score
+sacrebleu
+spacy
