@@ -1,0 +1,39 @@
+Instruction: Analyze the following review text and provide one distinct outputs formatted in JSON:
+
+1. **Sentiment Classification:** Indicate whether the sentiment of the review is Positive, Neutral, or Negative.
+2. **Named Entity Extraction:** List all named entities present in the text, categorizing them by type (e.g., people, locations, organizations, etc.).
+3. **Required JSON Format:** Ensure the response is formatted in JSON according to the following schema:
+
+{{
+  "sentiment": "<sentiment>",
+  "entities": {{
+    "person": ["<person_name1>", "<person_name2>", ...],
+    "location": ["<location1>", "<location2>", ...],
+    "organization": ["<organization1>", "<organization2>", ...],
+    "product": ["<product1>", "<product2>", ...]
+  }}
+}}
+
+example:
+
+"I recently visited the restaurant 'La Dolce Vita' in Rome and was thrilled with the service and food. The waiter, Marco, was exceptionally friendly and the truffle risotto was simply divine. I can't wait to return and recommend this place to my friends."
+
+```json
+
+{{
+  "sentiment": "Positive",
+  "entities": {{
+    "person": ["Marco"],
+    "location": ["Rome"],
+    "organization": ["La Dolce Vita"],
+    "product": ["truffle risotto"]
+  }}
+}}
+
+```
+{content}
+
+
+
+
+
