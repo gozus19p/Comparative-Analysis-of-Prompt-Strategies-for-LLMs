@@ -1,5 +1,15 @@
 # LLM Benchmark
 
+| Modello     | Stato      | Data di ultimo aggiornamento |
+|-------------|------------|------------------------------|
+| LLama3 8b   | Completato | 23 luglio 2024               |
+| Phi3 Medium | In corso   | 23 luglio 2024               |
+| Qwen2       | In coda    |                              |
+| Gemma2      | In coda    |                              |
+| Mistral 7B  | In coda    |                              |
+
+
+
 ---
 
 ## Ambiente di sviluppo
