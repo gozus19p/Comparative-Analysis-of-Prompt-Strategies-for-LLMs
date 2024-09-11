@@ -123,7 +123,8 @@ import os
 MODEL_NAME: str = input("Enter the code of the model: ").strip()
 
 # Define the output path and get the result as csv
-output_file_path: str = f"../resources/sampled_reviews_with_output_{MODEL_NAME.replace(':', '_')}.csv"
+base_path: str = os.path.join(os.path.dirname(__file__), "..")
+output_file_path: str = f"{base_path}/resources/sampled_reviews_with_output_{MODEL_NAME.replace(':', '_')}.csv"
 
 exists: bool = os.path.exists(output_file_path)
 if not exists:
