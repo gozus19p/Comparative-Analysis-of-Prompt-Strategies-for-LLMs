@@ -1,61 +1,65 @@
-# LLM Benchmark
+# Comparative Analysis of Prompt Strategies for LLMs: Single-Task vs. Multitasking Prompts
 
-| Modello     | Stato      | Data di ultimo aggiornamento |
-|-------------|------------|------------------------------|
-| LLama3 8b   | Completato | 4 agosto 2024                |
-| Phi3 Medium | In corso   | 1 agosto 2024                |
-| Qwen2       | In coda    |                              |
-| Gemma2      | In coda    |                              |
-| Mistral 7B  | In coda    | 5 agosto 2024                |
+This repository contains the code and datasets used for the paper *Comparative Analysis of Prompt Strategies for LLMs: Single-Task vs. Multitasking Prompts (Gozzi M., Di Maio F.)*. The study focuses on evaluating the performance of Large Language Models (LLMs) using both single-task and multitasking prompts, particularly in sentiment analysis and named entity recognition (NER).
 
+## Repository Structure
 
+The repository is organized as follows:
 
----
+### Notebooks
+The Jupyter notebooks used for data preparation, sampling, model evaluation, and result analysis can be found in the `./notebooks` folder:
+- `01. Dataset production.ipynb`: Script for generating the dataset used in the study.
+- `02. Sampling.ipynb`: Data sampling techniques.
+- `02bis. Clean sample.ipynb`: Cleaning and filtering sampled data.
+- `04. Single call.ipynb`: Script to process a single prompt call.
+- `04bis. Multi call.ipynb`: Multi-prompt handling.
+- `05. Dataset normalization.ipynb`: Data normalization steps.
+- `06. Evaluation.ipynb`: Main evaluation script for model performance.
+- `06b. Evaluation mono.ipynb`: Single-task evaluation script.
+- `07. Statistics.ipynb`: Statistical analysis of the model results.
 
-## Ambiente di sviluppo
+### Resources
+All datasets and performance analysis results are stored in the `./resources` directory:
+- Each subfolder under `resources` corresponds to one of the models evaluated, and contains:
+  - Performance datasets (CSV files).
+  - Visual performance analysis (PNG images).
 
-### Prerequisiti
+The models analyzed include:
+- `gemma2_9b`
+- `llama3.1`
+- `mistral7_b`
+- `phi3_medium`
+- `qwen2_7b`
 
-> Utilizzare la versione 3.10 di Python.
+## Dataset
 
-### Configurazione
+The dataset used for the experiments consists of IMDB reviews with additional Named Entity Recognition (NER) annotations. The data was augmented using the SpaCy library and further processed for evaluation.
 
-Per configurare l'ambiente virutale usiamo `venv` e `pip`, variante molto più semplice di Poetry.
+## Setup and Usage
 
-```shell
-#!/bin/bash
+### Requirements
 
-# Creo l'ambiente virtuale localmente
-python -m venv .venv/
+All the requirements are defined on top of each notebook.
 
-# Attivo l'ambiente virtuale (per disattivare, lanciare il comando `deactivate`)
-source .venv/bin/activate
+### Running the Notebooks
 
-# Installo le dipendenze
-pip install -r requirements.txt
-```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/gozus19p/llm-benchmark.git
+   cd llm-benchmark
+   ```
 
-Conseguentemente, configuare l'interprete Python per puntare al binario posto sotto `./venv/bin/python3`.
+2. Start Jupyter Notebook:
+   ```bash
+   jupyter notebook
+   ```
 
----
+3. Open and run the notebooks located in the `./notebooks` directory for the specific steps in the pipeline.
 
-## Stesura dei notebook
+## Results and Evaluation
 
-### Dichiarazione delle dipendenze
+Results from the model evaluations, including performance metrics (e.g., F1 score for NER, BLEU score for text coherence), are stored in the respective model folders under `./resources`.
 
-Nella prima cella, riportare per esteso i requisiti da installare con la sintassi seguente:
+## License
 
-```jupyter
-!pip install requisito1 requisito2 ...
-```
-
-Questo garantisce l'interoperabilità e l'atomicità del notebook.
-
-> Il file `requirements.txt` posto sotto la root di progetto deve comunque rimanere allineato, così da mettere a
-> disposizione un ambiente virtuale compatibile con tutti i notebook.
-
-### Dataset
-
-I dataset devono risiedere sotto `resources/`, ma essendo parecchio pesanti in termini di byte non vanno committati.
-
-> Fare attenzione alla nomenclatura usata nel .gitignore.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
