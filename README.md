@@ -25,3 +25,5 @@ Per quanto riguarda il dataset utilizzeremo sempre lo stesso (IMDB), ampliando p
 - Elaborare linee guida per la selezione del modello ottimale in base alla tipologia di applicazione
 
 
+# NOTE:
+- Il file per la generazione della traduzione è stato testato su un'altra repo, (se necessario costruire chiave API per TEST), dataset generato e inserito in resources
