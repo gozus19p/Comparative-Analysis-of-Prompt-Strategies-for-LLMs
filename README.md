@@ -17,11 +17,11 @@ Per quanto riguarda il dataset utilizzeremo sempre lo stesso (IMDB), ampliando p
 ## TO DO:
 - Definire cluster per famiglia di modelli, mantenendo focus sulle versioni più recenti:
     - 🦙 Meta – llama3.1:8b-instruct-q3_K_L
-    - 🧠 DeepSeek - DeepSeek LLM 7B
+    - 🧠 DeepSeek - deepseek-r1:8b
     - 🔍 Google - Gemma 3 4B
-- Aggiungere un quarto task NLP (da decidere)
-- Identificare i fattori determinanti (Secondo me potrebbero influenzare size contesto e size parametri) che influenzano le performance in scenari single-task vs multi-task
-- Formulare ipotesi sul perché i modelli funzionano meglio in uno scenario piuttosto che nell'altro
+- Aggiungere un quarto task NLP (traduzione)
+- calcolare quanto variano i risultati aggiungendo task NLP
+- Determinare se esistono tendenze specifiche per famiglia di LLM
 - Elaborare linee guida per la selezione del modello ottimale in base alla tipologia di applicazione
 
 
