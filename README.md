@@ -16,7 +16,7 @@ Per quanto riguarda il dataset utilizzeremo sempre lo stesso (IMDB), ampliando p
 
 ## TO DO:
 - Definire cluster per famiglia di modelli, mantenendo focus sulle versioni più recenti:
-    - 🦙 Meta – Llama 3 8B
+    - 🦙 Meta – llama3.1:8b-instruct-q3_K_L
     - 🧠 DeepSeek - DeepSeek LLM 7B
     - 🔍 Google - Gemma 3 4B
 - Aggiungere un quarto task NLP (da decidere)
