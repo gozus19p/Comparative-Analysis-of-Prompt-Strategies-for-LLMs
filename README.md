@@ -16,13 +16,12 @@ Per quanto riguarda il dataset utilizzeremo sempre lo stesso (IMDB), ampliando p
 
 ## TO DO:
 - Definire cluster per famiglia di modelli, mantenendo focus sulle versioni più recenti:
-    - 🦙 Meta – llama3.1:8b-instruct-q3_K_L
-    - 🧠 DeepSeek - deepseek-r1:8b
-    - 🔍 Google - Gemma 3 4B
+    - 🦙 Meta – llama3.1:8b-instruct-q3_K_L -> Transformer decoder-only
+    - 🧠 DeepSeek - deepseek-r1:8b -> Mixture-of-Experts (MoE)
+    - 🔍 Google - Gemma 3 4B ->  Transformer decoder-only
+    - 🐉 Alibaba – Qwen3:7B-Instruct → Transformer decoder-only
 - Aggiungere un quarto task NLP (traduzione)
 - calcolare quanto variano i risultati aggiungendo task NLP
-- Determinare se esistono tendenze specifiche per famiglia di LLM
-- Elaborare linee guida per la selezione del modello ottimale in base alla tipologia di applicazione
 
 
 # NOTE:
