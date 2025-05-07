@@ -1,0 +1,5 @@
+Metrica,Dataset completo (1000),Dataset ridotto (500),Differenza %,Statisticamente diversi
+Score totale,0.6931 ± 0.2145,0.7016 ± 0.1992,-1.23%,No
+BLEU Review,0.8399 ± 0.3099,0.8464 ± 0.2983,-0.77%,No
+Sentiment,0.8630 ± 0.3438,0.8680 ± 0.3385,-0.58%,No
+NER F1,0.3765 ± 0.3431,0.3906 ± 0.3343,-3.75%,No
