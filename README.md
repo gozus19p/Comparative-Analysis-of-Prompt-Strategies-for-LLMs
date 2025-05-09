@@ -3,9 +3,7 @@
 
 ## SCOPO:
 In questa nuova versione, ci proponiamo di migliorare significativamente il nostro precedente lavoro, approfondendo l'analisi delle performance dei Large Language Models in contesti single-task e multi-task.
-
 L'obiettivo principale è comprendere e documentare le ragioni fondamentali per cui determinati modelli di grandi dimensioni possano eccellere in uno scenario piuttosto che nell'altro, manterremo l'approccio metodologico della versione precedente utilizzando Ollama come framework di riferimento, ma espanderemo l'analisi includendo un confronto sistematico tra diverse famiglie architetturali di modelli, questo ci permetterà di valutare l'impatto dell'architettura sottostante sulle performance nei diversi contesti operativi.
-
 Per quanto riguarda il dataset utilizzeremo sempre lo stesso (IMDB), ampliando però il ventaglio di task NLP con l'introduzione di un quarto compito (ancora da decidere)
 
 ## AS IS
@@ -15,9 +13,12 @@ Per quanto riguarda il dataset utilizzeremo sempre lo stesso (IMDB), ampliando p
 - Risultati: non esiste una regola definitiva che favorisca i prompt single-task rispetto ai multi-task
 
 ## TO DO:
+- strutturato DATASET con 500 osservazioni
+- implementare un sistema di valutazione per definire se le distribuzioni non sono statisticamente diverse tra il dataset con 1000 osservazioni e quello con 500
 - Definire cluster per famiglia di modelli, mantenendo focus sulle versioni più recenti:
     - 🦙 Meta – llama3.1:8b-instruct-q3_K_L -> Transformer decoder-only
     - 🧠 DeepSeek - deepseek-r1:8b -> Mixture-of-Experts (MoE)
+    - 🧠 DeepSeek - deepseek-r1:7b -> Mixture-of-Experts (MoE)
     - 🔍 Google - Gemma 3 4B ->  Transformer decoder-only
     - 🐉 Alibaba – Qwen3:7B-Instruct → Transformer decoder-only
 - Aggiungere un quarto task NLP (traduzione)
