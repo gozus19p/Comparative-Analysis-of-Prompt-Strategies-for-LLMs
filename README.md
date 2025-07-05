@@ -20,7 +20,7 @@ Per quanto riguarda il dataset utilizzeremo sempre lo stesso (IMDB), ampliando p
     - 🧠 DeepSeek - deepseek-r1:8b -> Mixture-of-Experts (MoE)
     - 🧠 DeepSeek - deepseek-r1:7b -> Mixture-of-Experts (MoE)
     - 🔍 Google - Gemma 3 4B ->  Transformer decoder-only
-    - 🐉 Alibaba – Qwen3:7B-Instruct → Transformer decoder-only
+    - 🐉 Alibaba – Qwen3:4B-Instruct → Transformer decoder-only
 - Aggiungere un quarto task NLP (traduzione)
 - calcolare quanto variano i risultati aggiungendo task NLP
 
