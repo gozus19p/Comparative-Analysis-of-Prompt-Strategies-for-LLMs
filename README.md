@@ -63,3 +63,9 @@ Results from the model evaluations, including performance metrics (e.g., F1 scor
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
+### Models
+
+NAME                           ID              SIZE      
+qwen3:4b-instruct              088c6bc07f1d    2.5 GB    
