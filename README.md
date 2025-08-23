@@ -68,4 +68,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ### Models
 
 NAME                           ID              SIZE      
-qwen3:4b-instruct              088c6bc07f1d    2.5 GB    
+qwen3:4b-instruct              088c6bc07f1d    2.5 GB
+gemma3:4b                      a2af6cc3eb7f    3.3 GB
