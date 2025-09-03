@@ -69,4 +69,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 NAME                           ID              SIZE      
 qwen3:4b-instruct              088c6bc07f1d    2.5 GB
-gemma3:4b                      a2af6cc3eb7f    3.3 GB
+gemma3:4b                      a2af6cc3eb7f    3.3 GB 
+llama3.2:1b-instruct-q3_K_M
+llama3.1:8b-instruct-q5_K_M 
+phi3:instruct
+phi3.5:3.8b-mini-instruct-q8_0
+mistral:7b-instruct
