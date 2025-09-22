@@ -1,0 +1,127 @@
+model,task,metric,value
+Qwen3 4B,1,json_em,99.0
+Qwen3 4B,2,json_em,96.4
+Qwen3 4B,2,bleu_translate,38.72926550279424
+Qwen3 4B,3,json_em,95.6
+Qwen3 4B,3,bleu_translate,38.49393497601179
+Qwen3 4B,3,em_sentiment,92.46861924686192
+Qwen3 4B,4,json_em,96.4
+Qwen3 4B,4,bleu_translate,38.59113625209294
+Qwen3 4B,4,em_sentiment,90.66390041493776
+Qwen3 4B,4,em_emotion,45.850622406639005
+Qwen3 4B,5,json_em,96.4
+Qwen3 4B,5,bleu_translate,38.2713112440752
+Qwen3 4B,5,em_sentiment,91.701244813278
+Qwen3 4B,5,em_emotion,45.64315352697096
+Qwen3 4B,5,em_topic,61.20331950207469
+Qwen3 4B,6,json_em,96.4
+Qwen3 4B,6,bleu_translate,38.09200570541834
+Qwen3 4B,6,em_sentiment,91.701244813278
+Qwen3 4B,6,em_emotion,42.531120331950206
+Qwen3 4B,6,em_topic,57.46887966804979
+Qwen3 4B,6,f1_ner,66.53676348032675
+Gemma3 4B,1,json_em,96.8
+Gemma3 4B,2,json_em,92.8
+Gemma3 4B,2,bleu_translate,42.46792513694975
+Gemma3 4B,3,json_em,95.0
+Gemma3 4B,3,bleu_translate,43.25121405294484
+Gemma3 4B,3,em_sentiment,89.05263157894737
+Gemma3 4B,4,json_em,95.2
+Gemma3 4B,4,bleu_translate,42.13542339664125
+Gemma3 4B,4,em_sentiment,89.28571428571429
+Gemma3 4B,4,em_emotion,31.09243697478992
+Gemma3 4B,5,json_em,95.2
+Gemma3 4B,5,bleu_translate,40.658542203228414
+Gemma3 4B,5,em_sentiment,90.96638655462183
+Gemma3 4B,5,em_emotion,21.638655462184875
+Gemma3 4B,5,em_topic,38.445378151260506
+Gemma3 4B,6,json_em,93.6
+Gemma3 4B,6,bleu_translate,40.44180509548021
+Gemma3 4B,6,em_sentiment,89.74358974358975
+Gemma3 4B,6,em_emotion,1.4957264957264955
+Gemma3 4B,6,em_topic,3.205128205128205
+Gemma3 4B,6,f1_ner,62.165501831635495
+Llama 3.1 8B,1,json_em,92.6
+Llama 3.1 8B,2,json_em,75.6
+Llama 3.1 8B,2,bleu_translate,12.164575753506934
+Llama 3.1 8B,3,json_em,76.8
+Llama 3.1 8B,3,bleu_translate,31.63522287960868
+Llama 3.1 8B,3,em_sentiment,92.96875
+Llama 3.1 8B,4,json_em,81.39999999999999
+Llama 3.1 8B,4,bleu_translate,29.500577767097884
+Llama 3.1 8B,4,em_sentiment,92.87469287469288
+Llama 3.1 8B,4,em_emotion,59.21375921375921
+Llama 3.1 8B,5,json_em,77.8
+Llama 3.1 8B,5,bleu_translate,28.434955191188056
+Llama 3.1 8B,5,em_sentiment,91.77377892030847
+Llama 3.1 8B,5,em_emotion,46.7866323907455
+Llama 3.1 8B,5,em_topic,57.84061696658098
+Llama 3.1 8B,6,json_em,88.2
+Llama 3.1 8B,6,bleu_translate,28.788543083422077
+Llama 3.1 8B,6,em_sentiment,91.83673469387756
+Llama 3.1 8B,6,em_emotion,33.78684807256236
+Llama 3.1 8B,6,em_topic,30.385487528344672
+Llama 3.1 8B,6,f1_ner,51.63179202287535
+Mistral 7B,1,json_em,99.2
+Mistral 7B,2,json_em,89.8
+Mistral 7B,2,bleu_translate,30.294556322942263
+Mistral 7B,3,json_em,85.0
+Mistral 7B,3,bleu_translate,29.0547591848228
+Mistral 7B,3,em_sentiment,93.41176470588236
+Mistral 7B,4,json_em,96.0
+Mistral 7B,4,bleu_translate,28.30213228921704
+Mistral 7B,4,em_sentiment,91.25
+Mistral 7B,4,em_emotion,50.0
+Mistral 7B,5,json_em,97.2
+Mistral 7B,5,bleu_translate,28.699296045976023
+Mistral 7B,5,em_sentiment,92.38683127572016
+Mistral 7B,5,em_emotion,27.36625514403292
+Mistral 7B,5,em_topic,63.580246913580254
+Mistral 7B,6,json_em,94.8
+Mistral 7B,6,bleu_translate,28.101418825047347
+Mistral 7B,6,em_sentiment,93.0379746835443
+Mistral 7B,6,em_emotion,8.649789029535865
+Mistral 7B,6,em_topic,46.62447257383967
+Mistral 7B,6,f1_ner,46.810963770356565
+DeepSeek R1 7B,1,json_em,32.0
+DeepSeek R1 7B,2,json_em,48.6
+DeepSeek R1 7B,2,bleu_translate,11.365433459903196
+DeepSeek R1 7B,3,json_em,61.8
+DeepSeek R1 7B,3,bleu_translate,11.093139362501946
+DeepSeek R1 7B,3,em_sentiment,87.05501618122977
+DeepSeek R1 7B,4,json_em,67.2
+DeepSeek R1 7B,4,bleu_translate,10.770792251627764
+DeepSeek R1 7B,4,em_sentiment,85.71428571428571
+DeepSeek R1 7B,4,em_emotion,41.07142857142857
+DeepSeek R1 7B,5,json_em,65.4
+DeepSeek R1 7B,5,bleu_translate,10.445810500260148
+DeepSeek R1 7B,5,em_sentiment,86.54434250764525
+DeepSeek R1 7B,5,em_emotion,38.226299694189606
+DeepSeek R1 7B,5,em_topic,52.59938837920489
+DeepSeek R1 7B,6,json_em,70.6
+DeepSeek R1 7B,6,bleu_translate,9.978372513744024
+DeepSeek R1 7B,6,em_sentiment,86.11898016997166
+DeepSeek R1 7B,6,em_emotion,29.178470254957507
+DeepSeek R1 7B,6,em_topic,44.19263456090651
+DeepSeek R1 7B,6,f1_ner,41.73648510799203
+Granite 3.1 MoE 3B,1,json_em,97.8
+Granite 3.1 MoE 3B,2,json_em,86.8
+Granite 3.1 MoE 3B,2,bleu_translate,15.042853643121742
+Granite 3.1 MoE 3B,3,json_em,97.0
+Granite 3.1 MoE 3B,3,bleu_translate,14.683779726663309
+Granite 3.1 MoE 3B,3,em_sentiment,87.42268041237114
+Granite 3.1 MoE 3B,4,json_em,97.0
+Granite 3.1 MoE 3B,4,bleu_translate,13.096915210950256
+Granite 3.1 MoE 3B,4,em_sentiment,87.21649484536083
+Granite 3.1 MoE 3B,4,em_emotion,10.721649484536082
+Granite 3.1 MoE 3B,5,json_em,97.2
+Granite 3.1 MoE 3B,5,bleu_translate,13.26495824366403
+Granite 3.1 MoE 3B,5,em_sentiment,87.65432098765432
+Granite 3.1 MoE 3B,5,em_emotion,3.292181069958848
+Granite 3.1 MoE 3B,5,em_topic,17.48971193415638
+Granite 3.1 MoE 3B,6,json_em,91.6
+Granite 3.1 MoE 3B,6,bleu_translate,13.871363047343989
+Granite 3.1 MoE 3B,6,em_sentiment,85.1528384279476
+Granite 3.1 MoE 3B,6,em_emotion,4.148471615720524
+Granite 3.1 MoE 3B,6,em_topic,8.078602620087336
+Granite 3.1 MoE 3B,6,f1_ner,32.64565467873464
