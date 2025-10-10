@@ -1,43 +1,79 @@
 model,task,metric,value,order
 Granite 3.1 MoE 3B,1,json_em,98.0,inverted
+Granite 3.1 MoE 3B,1,bleu_review,51.41984922297408,inverted
+Granite 3.1 MoE 3B,1,valid_json_count,490.0,inverted
+Granite 3.1 MoE 3B,1,total_samples,500.0,inverted
 Granite 3.1 MoE 3B,2,json_em,98.4,inverted
+Granite 3.1 MoE 3B,2,bleu_review,66.91074312832855,inverted
 Granite 3.1 MoE 3B,2,em_sentiment,86.1788617886179,inverted
+Granite 3.1 MoE 3B,2,valid_json_count,492.0,inverted
+Granite 3.1 MoE 3B,2,total_samples,500.0,inverted
 Granite 3.1 MoE 3B,3,json_em,99.0,inverted
+Granite 3.1 MoE 3B,3,bleu_review,76.40636104722202,inverted
 Granite 3.1 MoE 3B,3,em_sentiment,85.85858585858585,inverted
 Granite 3.1 MoE 3B,3,em_emotion,16.565656565656568,inverted
+Granite 3.1 MoE 3B,3,valid_json_count,495.0,inverted
+Granite 3.1 MoE 3B,3,total_samples,500.0,inverted
 Granite 3.1 MoE 3B,4,json_em,98.2,inverted
+Granite 3.1 MoE 3B,4,bleu_review,80.47797796005186,inverted
 Granite 3.1 MoE 3B,4,em_sentiment,86.15071283095723,inverted
 Granite 3.1 MoE 3B,4,em_emotion,5.295315682281059,inverted
 Granite 3.1 MoE 3B,4,em_topic,10.79429735234216,inverted
+Granite 3.1 MoE 3B,4,valid_json_count,491.0,inverted
+Granite 3.1 MoE 3B,4,total_samples,500.0,inverted
 Granite 3.1 MoE 3B,5,json_em,98.4,inverted
+Granite 3.1 MoE 3B,5,bleu_review,85.06719299455227,inverted
 Granite 3.1 MoE 3B,5,em_sentiment,82.3170731707317,inverted
 Granite 3.1 MoE 3B,5,em_emotion,3.252032520325204,inverted
 Granite 3.1 MoE 3B,5,em_topic,5.284552845528456,inverted
 Granite 3.1 MoE 3B,5,f1_ner,35.926945697003674,inverted
+Granite 3.1 MoE 3B,5,valid_json_count,492.0,inverted
+Granite 3.1 MoE 3B,5,total_samples,500.0,inverted
 Granite 3.1 MoE 3B,6,json_em,58.8,inverted
+Granite 3.1 MoE 3B,6,bleu_review,78.37395051686255,inverted
 Granite 3.1 MoE 3B,6,em_sentiment,86.05442176870748,inverted
 Granite 3.1 MoE 3B,6,em_emotion,4.761904761904762,inverted
 Granite 3.1 MoE 3B,6,em_topic,11.904761904761903,inverted
 Granite 3.1 MoE 3B,6,f1_ner,34.33668234733147,inverted
 Granite 3.1 MoE 3B,6,bleu_translate,9.656527001565582,inverted
+Granite 3.1 MoE 3B,6,valid_json_count,294.0,inverted
+Granite 3.1 MoE 3B,6,total_samples,500.0,inverted
 Qwen3 4B,1,json_em,99.2,inverted
+Qwen3 4B,1,bleu_review,89.16005400357024,inverted
+Qwen3 4B,1,valid_json_count,496.0,inverted
+Qwen3 4B,1,total_samples,500.0,inverted
 Qwen3 4B,2,json_em,96.8,inverted
+Qwen3 4B,2,bleu_review,97.12241581480323,inverted
 Qwen3 4B,2,em_sentiment,93.18181818181816,inverted
+Qwen3 4B,2,valid_json_count,484.0,inverted
+Qwen3 4B,2,total_samples,500.0,inverted
 Qwen3 4B,3,json_em,97.0,inverted
+Qwen3 4B,3,bleu_review,96.3686010958958,inverted
 Qwen3 4B,3,em_sentiment,92.57731958762886,inverted
 Qwen3 4B,3,em_emotion,44.123711340206185,inverted
+Qwen3 4B,3,valid_json_count,485.0,inverted
+Qwen3 4B,3,total_samples,500.0,inverted
 Qwen3 4B,4,json_em,96.8,inverted
+Qwen3 4B,4,bleu_review,95.86566508675936,inverted
 Qwen3 4B,4,em_sentiment,91.94214876033058,inverted
 Qwen3 4B,4,em_emotion,42.35537190082644,inverted
 Qwen3 4B,4,em_topic,58.26446280991735,inverted
+Qwen3 4B,4,valid_json_count,484.0,inverted
+Qwen3 4B,4,total_samples,500.0,inverted
 Qwen3 4B,5,json_em,97.0,inverted
+Qwen3 4B,5,bleu_review,93.52834578181468,inverted
 Qwen3 4B,5,em_sentiment,93.1958762886598,inverted
 Qwen3 4B,5,em_emotion,40.618556701030926,inverted
 Qwen3 4B,5,em_topic,52.98969072164949,inverted
 Qwen3 4B,5,f1_ner,65.99798623765227,inverted
+Qwen3 4B,5,valid_json_count,485.0,inverted
+Qwen3 4B,5,total_samples,500.0,inverted
 Qwen3 4B,6,json_em,96.8,inverted
+Qwen3 4B,6,bleu_review,94.30787332564095,inverted
 Qwen3 4B,6,em_sentiment,93.18181818181816,inverted
 Qwen3 4B,6,em_emotion,39.87603305785124,inverted
 Qwen3 4B,6,em_topic,51.03305785123967,inverted
 Qwen3 4B,6,f1_ner,67.71664328193532,inverted
 Qwen3 4B,6,bleu_translate,38.27550451356544,inverted
+Qwen3 4B,6,valid_json_count,484.0,inverted
+Qwen3 4B,6,total_samples,500.0,inverted

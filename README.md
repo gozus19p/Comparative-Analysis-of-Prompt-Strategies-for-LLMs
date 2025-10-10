@@ -68,8 +68,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ### Models
 
 NAME                           ID              SIZE      
-qwen3:4b-instruct              088c6bc07f1d    2.5 GB
-gemma3:4b                      a2af6cc3eb7f    3.3 GB
-llama3.1:8b-instruct-q3_K_M    4faa21fca5a2    4.0 GB
-mistral:7b-instruct            6577803aa9a0    4.4 GB
-deepseek-r1:7b                 755ced02ce7b    4.7 GB
+qwen3:4b-instruct              088c6bc07f1d    2.5 GB (Alibaba)
+gemma3:4b                      a2af6cc3eb7f    3.3 GB (Google DeepMind)
+llama3.1:8b-instruct-q3_K_M    4faa21fca5a2    4.0 GB (Meta)
+mistral:7b-instruct            6577803aa9a0    4.4 GB (Mistral AI)
+deepseek-r1:7b                 755ced02ce7b    4.7 GB (DeepSeek AI)
+granite3.1-moe:3b              b43d80d7fca7    2.0 GB (IBM)
