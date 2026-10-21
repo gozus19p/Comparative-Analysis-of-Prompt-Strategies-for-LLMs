@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this code or dataset, please cite it as below."
+title: "Comparative Analysis of Prompt Strategies for Large Language Models: Single-Task vs. Multitask Prompts"
+authors:
+  - family-names: "Gozzi"
+    given-names: "Manuel"
+  - family-names: "Di Maio"
+    given-names: "Federico"
+type: article
+journal: "Electronics"
+volume: 13
+issue: 23
+start: 4712
+year: 2024
+date-released: "2024-11-28"
+publisher: "MDPI"
+issn: "2079-9292"
+doi: "10.3390/electronics13234712"
+url: "https://www.mdpi.com/2079-9292/13/23/4712"
+repository-code: "https://github.com/gozus19p/Comparative-Analysis-of-Prompt-Strategies-for-LLMs"
+keywords:
+  - prompt engineering
+  - large language models
+  - multitask prompts
+  - named entity recognition
+  - sentiment analysis
+license: MIT
